@@ -7,11 +7,11 @@ function call(){
     var password=document.getElementById("password").value;
     console.log(mail,password)
     if(!password||!mail){
-      alert("Email or Password Incorrect")
+    
       document.querySelector("#secondlast").setAttribute("style","display:block");
       document.querySelector("#thirdlast").setAttribute("style","display:none");
     }else if(person[0].mail!=mail||person[0].password!=password){
-   
+      alert("Email or Password Incorrect")
       document.querySelector("#secondlast").setAttribute("style","display:none");
       document.querySelector("#thirdlast").setAttribute("style","display:block");
     }
