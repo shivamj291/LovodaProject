@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Confimartion</title>
+    <style>
+        #otpbox{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+ <div id="otpbox">
+    <h3>Please Enter OTP</h3>
+        <input id="OTP" type="text" placeholder="Enter OTP">
+        <button id="btn" onclick="status()">Confirm OTP</button>
+ </div>
+</body>
+</html>
+
+<script>
+    function status(){
+        var otp = document.getElementById("OTP").value;
+    if(otp === "1234"){
+        alert("Payment successful, Order has been placed");
+        window.location.href = "shop.html";
+    }else{
+        alert("Please Enter Correct OTP");
+    }
+    }
+    
+</script>

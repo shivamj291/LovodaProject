@@ -1,0 +1,402 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #121212;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  }
+#chatBox{
+  width: 120px;
+  background-color: #44594f;;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 40px;
+  text-align: center;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 100;
+}
+
+
+#heading{
+  text-align: center;
+  font-size: 80%;
+  color: grey;
+}
+hr{
+  color: rgb(187, 179, 179)
+}
+  /* Navbar */
+  #mNavbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 15%;
+  }
+  #navbar img{
+    margin-right: 30px;
+    width: 100%;
+    margin-top: 7px;
+  }
+  #navbar{
+    display: flex;
+  }
+  #navbar p{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(var(--color-foreground));
+    font-size: 85%;
+  }
+  #navbar>a{
+    text-decoration: none;
+    color: rgb(var(--color-foreground));
+    cursor: pointer;
+  }
+  #navbar p:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    cursor: default;
+  }
+  #smallNav{
+    display: none;
+    
+  }
+  .navbar-toggler{
+    font-size: 9px;
+    padding: 3px 7px;
+  }
+  #icons{
+    display: flex;
+    align-items: center;
+
+}
+#icons i{
+    margin: 10px;
+    color: #121212;
+    
+}
+/* ////////////////////////////////////////////////////// */
+
+/* self */
+*{
+    font-family: 'Assistant', sans-serif;
+    box-sizing: border-box;
+}
+
+
+#container{
+  display: grid;
+width:35%;
+margin:auto;
+
+}
+#container input{
+    width: 100%;
+    padding: 13px;
+    margin:10px 0;
+}
+#container h1{
+font-size: 40px;
+font-family: assistant,sans-serif;
+font-weight: 400;
+color: #121212;
+text-align: center;
+margin:30px 0;
+}
+#sign{
+    margin:auto;
+}
+
+ 
+  #fcebk
+  {
+    font-size: 28px;
+    margin-left: 40px;
+    margin-right: 15px;
+    
+  }
+  #fcebkk
+  {
+    font-size: 28px;
+    margin-left: 40px;
+    margin-right: 15px;
+    color:blue;
+    border: 2px solid teal;
+    background-color: pink;
+  }
+  #amzn
+  {
+    font-size: 21px;
+    margin-top: 8px;
+    margin-left: 50px;
+    margin-right: 15px;
+  }
+  
+  #cnt
+  {
+    margin-top: 10px;
+  }
+  #cntt
+  {
+    margin: 10px 50px;
+    font-size: 15px;
+    color:red;
+  }
+  #cn
+  {
+    margin: 10px 50px;
+    font-size: 15px;
+    color:white;
+   
+  }
+  #go
+  {
+    margin: auto 20px;
+    font-size: 15px;
+    color:red;
+   
+  }
+  .social a{
+    text-decoration:none;
+  
+    margin:12%;
+    
+  }
+  #fb
+  {
+    width: 100%;
+    height: 45px;
+    background-color: #FFFFFF;
+    border: 2px solid #1877F2;
+    color: #1877F2;
+    display: flex;
+    
+  }
+  #fbb
+  {
+    width: 100%;
+    height: 45px;
+    background-color: #FFFFFF;
+    border:2px solid yellow;
+    display: flex;
+  }
+  .fa-brands fa-facebook
+  {
+    font-weight: bolder;
+  }
+ 
+  #amazon
+  {
+    width: 100%;
+    height: 45px;
+    background-color: #ffa100;
+    color: white;
+    display: flex;
+    margin:-20px 0 10px 0;
+    border:none;
+  }
+
+.social .fbtxt{
+    font-size: 13px;
+   
+    margin:12px;
+}
+.social .amazontxt{
+    font-size: 15px;
+    color:white;
+    margin:50px;
+}
+
+#catch{
+   background-color: #121212;
+    color:white;
+}
+#shi{
+  width: 27%;
+  margin:4% 0 35% 35%;
+}
+
+img{
+  width:6%;
+  margin-left: -8px;
+ }
+
+
+ #forgotPassword{
+  text-decoration: none;
+  color:#121212d9;
+  border-bottom: 1px solid #121212d9;
+ }
+ #createac{
+  text-decoration: none;
+  color:#121212d9;
+  border-bottom: 1px solid #121212d9;
+
+ }
+ #che p{
+  margin: 3px 5px 10% 0px;
+  color:#121212BF
+ }
+ #che{
+  margin-top:-10px;
+ }
+ #google{ 
+   display: flex;
+  width: 100%;
+  height: 45px;
+  margin-top:-3%;
+  margin-bottom:2%;
+  background-color: white;
+  border:none;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+ 
+}
+#ggl img{
+  width:50%;
+  height: 50%;
+ margin-top:15%;
+ margin-left:100%;
+}
+.social{
+
+  margin-bottom:-10%;
+}
+#gog{
+
+  margin: 2.5% 20%;
+  font-size: 15px;
+  color:#121212;
+}
+#password+p{
+  margin:-3px 0;
+  font-family: assistant,sans-serif;
+  color: #121212BF;
+  margin-bottom: 10%;
+}
+#che{
+  display:flex;
+}
+
+#fname::-webkit-input-placeholder,#lname::-webkit-input-placeholder,
+#mail::-webkit-input-placeholder,#password::-webkit-input-placeholder{
+  font-size: 15px;
+}
+input{
+  border:1.5px solid #121212BF;
+}
+
+
+/* footer */
+#footer{
+  display: flex;
+  margin: 0 15%;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+#footer p{
+  row-gap: 6rem;
+  color: grey;
+  font-weight: 300;
+}
+#footer #pBold{
+  color: rgb(68, 68, 68);
+  font-weight: 600;
+
+}
+#mailBox{
+  border: 1px solid rgb(187, 179, 179);
+  width: 400px;
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+}
+#mailBox a{
+  margin-left: 35%;
+  color: black;
+  font-size: 14px;
+  transition: transform 0.2s;
+  text-decoration: none;
+}
+#mailBox i{
+  display: grid;
+  margin: 12px;
+  margin-left: 325px;
+  justify-content:flex-end;
+  /* margin-right: 10px; */
+  align-content: center;
+}
+#contacts{
+  margin-left: 15%;
+}
+#paymentMethod{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 1px;
+  margin: 32%;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+#copywrite{
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#adjust{
+  height: 45px;
+  margin-bottom:-2.5%;
+  margin-top:4%;
+  display:none;
+}
+#adjust p img{
+  width:4%;
+  margin-left: 2px;
+  margin-right: 25px;
+  
+}
+#adjust p{
+  margin-top:15%;
+  margin-bottom: 1%;
+  
+  font-size: 25px;
+}
+p img{
+  margin-left:-39px;
+  width:4%;
+}
+#margin{
+  margin-bottom:20px;
+ 
+  display:none;
+}
+#lineblank{
+ 
+  display:none;
+}
+#hid{
+ 
+  margin-top:0%;
+}
+#last{
+  margin-bottom: 20px;
+
+  display: none;
+}
+#secondlast{
+  display:none;
+}
+#last p{
+  margin: auto;
+  margin-left:35px;
+  margin-bottom:10px;
+}
+#secondlast p{
+  margin: auto;
+  margin-left:35px;
+  
+}
+#reset{
+  margin-top:-60%;
+  display: none;
+}
+

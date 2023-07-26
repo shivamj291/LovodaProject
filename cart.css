@@ -1,0 +1,194 @@
+#heading{
+    color: grey;
+    font-size: 100%;
+    text-align: center;
+
+}
+hr{
+    color: grey;
+    
+}
+#nbar{
+    display: flex;
+
+}
+#nbar>p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ #nbar img{
+    margin-left: 10%;
+    margin-right: 30px;
+}
+#nbar>p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-offset: 0.3rem;
+}
+#icons{
+   margin-left: 10%;
+   margin-top: 12px;
+   
+}
+#icons i{
+
+margin: 20px;
+cursor: pointer;
+
+
+}#icons > i:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+#mainyourcart{
+  display: flex;
+  margin-top: 60px;
+  font-size: 20px;
+  
+  
+}
+
+#urcart{
+    
+    margin-left: 100px;
+}
+#continueshopping{
+    margin-left: 50%;
+}
+#ptags{
+    font-size: 10px;
+    margin-top: 40px;
+    
+    display: flex;
+    justify-content: space-between ;
+    color: grey;
+}
+
+
+    
+#anker{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: grey;
+    
+}
+#urcart p{
+    margin-top: 50px;
+    font-size: 10px;
+    color: grey;
+}
+
+
+
+#ig img{
+    width: 10%;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+#ig{
+    display: flex;
+}
+#info{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#box{
+margin-left: 37%;
+
+}button{
+margin-top: 40px;
+padding: 10px 10px;
+}
+#ticon{
+margin-left: 30px;
+cursor: pointer;
+}
+#total P{
+margin-left: 100px;
+margin-top: 40px;
+}
+#subtotal{
+    display: flex;
+    color: grey;
+    margin-left: 80%;
+}
+#subtotal p{
+
+    margin-left: 30px;
+}
+#bt{
+    display: flex;
+    margin-left: 70%;
+}
+#afterpay{
+    padding: 2px 6px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(31, 187, 187);
+    color: black;
+    cursor: pointer;
+
+}
+#afterpay:hover{
+    padding: 3px 7px;
+    color: red;
+
+}
+#bt p{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#para{
+    margin-left: 74%;
+    color: grey;
+    border: none;
+}
+#btns{
+    margin-right: 40px;
+}
+#checkout{
+    padding: 10px 100px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+}
+#shoppay{
+    padding: 10px 100px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+#paypal{
+    padding: 10px 105px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(235, 220, 17);
+    color: white;
+}
+#gpay{
+    padding: 10px 110px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+}
+#checkout:hover{
+    padding: 11px 101px;
+}
+#shoppay:hover{
+    padding: 11px 101px;
+}
+#paypal:hover{
+    padding: 11px 106px;
+}
+#gpay:hover{
+    padding: 11px 111px;
+}
+span{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}

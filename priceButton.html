@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #priceBox{
+            width: 300px;
+            max-height: 55rem;
+            margin-top: 10px;
+            border: 1px solid rgb(187, 186, 186);
+        }
+        #priceBox>div{
+            display: flex;
+        }
+        #upperBox{
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            text-decoration: underline;
+        }
+        #priceBox p{
+            font-size: 14px;
+        }
+        #priceBox>div>input{
+            width: 40%;
+            margin: 5px;
+            padding: 5px 10px;
+        }
+        #priceBox>div~div{
+            height: 50px;
+        }
+        #upperBox>h5{
+            font-weight: 400;
+            text-decoration: underline;
+        }
+        hr{
+            color: rgb(187, 186, 186);
+        }
+    </style>
+</head>
+<body>
+    
+    <button>Price</button>
+    <div id="priceBox">
+        <div id="upperBox">
+            <p>The Highest price is $100.00</p>
+            <i data-product-id="7566283440367" data-count="3" class="ssw-icon-heart-o ssw-fave-icon ssw-wishlist-element ssw-synchronized" title="Add to wishlist" data-params="{&quot;product_id&quot;:&quot;7566283440367&quot;,&quot;event&quot;:&quot;fave_button&quot;,&quot;page&quot;:&quot;product_profile&quot;,&quot;title&quot;:&quot;Ripple Ring&quot;,&quot;handle&quot;:&quot;ring-21&quot;,&quot;first_variant_id&quot;:42484490698991}" tabindex="0" aria-label="Instagram Gallery" data-variant-id="42484490698991"></i>
+            <h5>Reset</h5>
+        </div>
+        <hr>
+        <div>
+            <p>$</p>
+            <input type="From" placeholder="From">
+            <p>$</p>
+            <input type="To" placeholder="To">
+        </div>
+    </div>
+</body>
+</html>

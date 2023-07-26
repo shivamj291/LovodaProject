@@ -1,0 +1,337 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #121212;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    }
+#chatBox{
+    width: 120px;
+    background-color: #44594f;;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    z-index: 100;
+}
+
+   
+    /* Navbar */
+    #mNavbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 15%;
+      }
+      #navbar img{
+        margin-right: 30px;
+      }
+      #navbar{
+        display: flex
+      }
+      #navbar p{
+        margin-left: 10px;
+        margin-right: 10px;
+        color: rgb(var(--color-foreground));
+        font-size: 85%;
+      }
+      #navbar>a{
+        text-decoration: none;
+        color: rgb(var(--color-foreground));
+      }
+      #navbar p:hover{
+        text-decoration: underline;
+        text-underline-offset: 0.3rem;
+        cursor: default;
+      }
+      #smallNav{
+        display: none;
+        
+      }
+      .navbar-toggler{
+        font-size: 9px;
+        padding: 3px 7px;
+      }
+      #icons{
+        display: flex;
+        align-items: center;
+    
+    }
+    #icons i{
+        margin: 10px;
+        color: #121212;
+        
+    }
+    /* ////////////////////////////////////////////////////// */
+
+
+
+
+#heading{
+    text-align: center;
+    font-size: 80%;
+    color: grey;
+}
+hr{
+    color: rgb(187, 179, 179)
+}
+
+
+/* Your cart midBox */
+#contentBox{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+#yourCartHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#yourCartHeading h1{
+    font-weight: 500;
+}
+#yourCartHeading h4{
+    color: black;
+    font-size: medium;
+    font-weight: 300;
+    text-decoration: underline;
+}
+#cartProducts{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#cartProducts-Image{
+    width: 120px;
+}
+#cartProducts-Image>img{
+    width: 100%;
+}
+#cartProducts-Description{
+    
+    padding-left: 4rem;
+    width: 45rem;
+}
+#cartProducts-Description p{
+    font-weight: 200;
+}
+#cartJSPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.qtybox{
+    display: flex;
+    border: 1px solid gray;
+    color: #5c5a5a;
+    height: 27px;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+#minus,#plus{
+    cursor: pointer;
+}
+#cartProducts-deleteBtn{
+    background-color: white;
+    align-items: center;
+    border: none;
+    margin-left: 0px;
+    margin-right: auto;
+}
+#cartProducts-deleteBtn img{
+    width: 15px;
+}
+
+/* Featured Collection */
+#featuredItemsHeading{
+    font-size: 30px;
+    font-weight: 300;
+}
+#featuredItems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+#featuredItems img{
+    width: 100%;
+    height: 250px;
+}
+#lastViewAll{
+    width: 120px;
+    height: 45px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+#lastViewAll a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+/* checkout Payment Css */
+#hh{
+    display: flex;
+    margin-right: 2px;
+    justify-content: space-between;
+}
+#hh>h5{
+    margin-left: 200px;
+}
+#parentCheckOut{
+    width: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: 2px;
+}
+#afterpayBox{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    height: 20px;
+}
+#afterpay{
+    padding: 2px 13px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(165, 228, 228);
+    color: black;
+    cursor: pointer;
+}
+#textPrice{
+        /* display: flex; */
+        font-weight: 100;
+        font-size: 14px;
+        align-items: center;
+        /* justify-content: end; */
+        margin-right: 0px;
+        margin-left: auto;
+}
+#checkoutTextBox{
+    text-align: right;
+}
+#checkOutBtn button{
+    width: 340px;
+    height: 54px;
+    margin-bottom: 9px;
+}
+#checkout{
+    font-size: 15px;
+}
+#checkOutBtn #checkout{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+    margin-bottom: 20px;
+}
+#checkOutBtn>#shoppay>img{
+    width: 100%;
+}
+
+#checkOutBtn>#shoppay{
+    cursor: pointer;
+    border: none;
+    background-color: #5a31f4;
+    color: black;
+    height: 54px;
+    min-height: 54px;
+    max-height: 54px;
+}
+#checkOutBtn>#paypal{
+    cursor: pointer;
+    border: none;
+    background-color: #ffc439;
+    color: black;
+    border-radius: 4px;
+    height: 54px;
+    min-height: 54px;
+    max-height: 54px;
+
+}
+#checkOutBtn>#gpay>img{
+    width: 28%;  
+}
+#checkOutBtn>#gpay{
+    cursor: pointer;
+    border: 1px solid #d2d2d2;
+    background-color: white;
+    color: black;
+    height: 54px;
+    min-height: 54px;
+    max-height: 54px;
+}
+
+/* Footer Css */
+#footer{
+    display: flex;
+    margin: 0 15%;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+#footer p{
+    row-gap: 6rem;
+    color: grey;
+    font-weight: 300;
+}
+#footer #pBold{
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+
+}
+#mailBox{
+    border: 1px solid rgb(187, 179, 179);
+    width: 400px;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+}
+#mailBox a{
+    margin-left: 35%;
+    color: black;
+    font-size: 14px;
+    transition: transform 0.2s;
+    text-decoration: none;
+}
+#mailBox i{
+    display: grid;
+    margin: 12px;
+    margin-left: 325px;
+    justify-content:flex-end;
+    /* margin-right: 10px; */
+    align-content: center;
+}
+#contacts{
+    margin-left: 15%;
+}
+#paymentMethod{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 1px;
+    margin: 32%;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+#copywrite{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+}

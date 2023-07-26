@@ -1,0 +1,174 @@
+*{
+    font-family: 'assistant',sans-serif;
+    font-weight: lighter;
+}
+#parent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+#parent>div{
+    width: 48%;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-top: 0;
+}
+#adjustinfo{
+    width: 90%;
+    margin: auto;
+}
+#express{
+    text-align: center;  
+    position: relative;
+}
+#express:before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+  }
+#express:after{
+    content:" ";
+  height: 1px;
+  width: 200px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+#contactinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mail{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 11.5px 10px;
+    border-radius: 5px;
+}
+#name{  
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+#name>#lname{
+    margin-right: -20px;
+    margin-left: 25px;
+}
+#name>input{
+    width: 48%;
+    padding: 11.5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#stayinfo>input{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 11.5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#code{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 103%;
+}
+#code>input{ 
+    border: 1px solid gray;
+    padding: 11.5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#phonenum{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 11.5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#nextstep{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    justify-content: space-between;
+}
+#nextstep>button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 16px 25px;
+    cursor: pointer;
+}
+
+/* Paymentinfo */
+#paymentinfo{
+    background-color:   rgb(235,235,235);
+    width: 60%;
+    /* border-left: 1px solid gray; */
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 2px solid blue; */
+}
+#cartproducts{
+    width: 100%;
+    margin: auto;
+}
+#info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    /* border: 2px solid red; */
+}
+#adjustimage{
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+}
+#giftcode{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#coupon{
+    padding: 11.5px 10px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+#applybtn{
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#subtotal,#shipping,#taxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+#shipping>p:last-child{
+    font-size: 12px;
+}
+#finalprice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#finalvalue{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
