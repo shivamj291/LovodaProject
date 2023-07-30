@@ -110,12 +110,12 @@ hr{
     width: 120px;
 }
 #cartProducts-Image>img{
-    width: 100%;
+    width: 120px;
 }
 #cartProducts-Description{
     
     padding-left: 4rem;
-    width: 45rem;
+    
 }
 #cartProducts-Description p{
     font-weight: 200;
@@ -286,52 +286,249 @@ hr{
     margin: 0 15%;
     padding-top: 36px;
     padding-bottom: 36px;
-}
-#footer p{
+  }
+  #footer p{
     row-gap: 6rem;
     color: grey;
     font-weight: 300;
-}
-#footer #pBold{
+  }
+  #footer #pBold{
     color: rgb(68, 68, 68);
     font-weight: 600;
-
-}
-#mailBox{
+  
+  }
+  #mailBox{
     border: 1px solid rgb(187, 179, 179);
     width: 400px;
     border-radius: 1px;
     display: flex;
     align-items: center;
-}
-#mailBox a{
+  }
+  #mailBox a{
     margin-left: 35%;
     color: black;
     font-size: 14px;
     transition: transform 0.2s;
     text-decoration: none;
-}
-#mailBox i{
+  }
+  #mailBox i{
     display: grid;
     margin: 12px;
     margin-left: 325px;
     justify-content:flex-end;
     /* margin-right: 10px; */
     align-content: center;
-}
-#contacts{
+  }
+  #contacts{
     margin-left: 15%;
-}
-#paymentMethod{
+  }
+  #paymentMethod{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     gap: 1px;
     margin: 32%;
     margin-top: 35px;
     margin-bottom: 0px;
-}
-#copywrite{
+  }
+  #copywrite{
     font-size: 12px;
     text-align: center;
     padding-bottom: 20px;
+  }
+  #adjust{
+    height: 45px;
+    margin-bottom:-2.5%;
+    margin-top:4%;
+    display:none;
+  }
+  #adjust p img{
+    width:4%;
+    margin-left: 2px;
+    margin-right: 25px;
+    
+  }
+  #adjust p{
+    margin-top:15%;
+    margin-bottom: 1%;
+    
+    font-size: 25px;
+  }
+  p img{
+    margin-left:-39px;
+    width:4%;
+  }
+  #margin{
+    margin-bottom:20px;
+   
+    display:none;
+  }
+  #lineblank{
+   
+    display:none;
+  }
+  #hid{
+   
+    margin-top:0%;
+  }
+  #last{
+    margin-bottom: 20px;
+  
+    display: none;
+  }
+  #secondlast{
+    display:none;
+  }
+  #last p{
+    margin: auto;
+    margin-left:35px;
+    margin-bottom:10px;
+  }
+  #secondlast p{
+    margin: auto;
+    margin-left:35px;
+    
+  }
+  #reset{
+    margin-top:-60%;
+    display: none;
+  }
+
+@media all and (max-width: 1100px){
+
+    #mNavbar{
+      display: none;
+    }
+    #footerHide{
+        display: none;
+      }
+      #footer{
+        text-align: center;
+        margin:unset;
+        justify-content: center;
+    }
+     
+    
+    #paymentMethod{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        
+    }
+    #contacts{
+        margin:0
+    }
+   #smallNav{
+    display: block;
+   }
+    #cn{
+      margin: 10px 15px
+    }
+  #gog{
+    margin: 7px 50px;
+  }
+  } 
+  
+  @media all and (max-width: 850px){
+    #cartProducts {
+        display: unset;
+        margin-bottom: 30px;
+    }
+    #cartProducts-Description{
+    
+        padding-left: unset;
+       
+    }
+    #cartJSPart{
+       
+        width: unset;
+    }
+  }
+ 
+@media all and (max-width: 650px){
+    
+    #feedImageBlock{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+   
+    #productbox{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+   
+    }
+    #featuredItems {
+      
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+  
+}
+@media all and (max-width: 450px){
+    
+    #feedImageBlock{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    #featuredItems {
+      
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    #productbox{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+   
+    }
+    #chatBox{
+        display: none;
+    }
+    #paymentMethod{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 1px;
+        margin:0px;
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+    #floting-text-box h1 {
+        font-size: 30px;
+    }
+    #contentBox{
+        width: 90%;
+    }
+    #parentCheckOut {
+        width:unset;}
+    #checkOutBtn{
+        text-align: center;
+    }
+}
+@media all and (max-width: 380px){
+   
+    #productbox{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #divhover {
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }
+    #paymentMethod{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    
+    }
+    #featuredItems {
+      
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    #checkOutBtn button {
+        width: 140px;
+      
+    }
+    #hh>h5{
+        margin-left:unset;
+    }
 }

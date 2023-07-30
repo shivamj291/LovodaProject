@@ -4,11 +4,11 @@
 }
 #parent{
     display: flex;
-    width: 80%;
+    
     margin: auto;
 }
 #parent>div{
-    width: 48%;
+    
     margin: auto;
     /* border: 2px solid red; */
     margin-top: 0;
@@ -99,7 +99,7 @@
     display: flex;
     /* border: 2px solid red; */
     margin-top: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #nextstep>button{
     background-color: black;
@@ -112,7 +112,7 @@
 /* Paymentinfo */
 #paymentinfo{
     background-color:   rgb(235,235,235);
-    width: 60%;
+
     /* border-left: 1px solid gray; */
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

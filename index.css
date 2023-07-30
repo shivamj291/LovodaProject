@@ -357,7 +357,7 @@ hr{
     }
     #footerHide{
         display: none;
-      }
+    }
       #footer{
         text-align: center;
         margin:unset;
@@ -448,8 +448,6 @@ hr{
         width: 80%;
         margin: auto;
     }
-}
-@media all and (max-width: 320px){
     #paymentMethod{
         display: grid;
         grid-template-columns: repeat(4,1fr);

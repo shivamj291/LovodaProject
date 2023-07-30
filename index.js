@@ -96,7 +96,7 @@ var storedata = [];
 function getdata(ele){
     storedata.push(ele);
     localStorage.setItem("product",JSON.stringify(storedata));
-    window.location.href= "Product page/product.html";
+    window.location.href= "product.html";
 } 
 // document.getElementById
 // function SortData(){

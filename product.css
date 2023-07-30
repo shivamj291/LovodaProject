@@ -111,28 +111,28 @@ hr{
 }
 #parentbox{
     display: flex;
-    margin: auto;
     justify-content: center;
-    flex-direction: row-reverse;
-    /* border: 2px solid red; */
-    gap: 50px;
-    /* widt */
+    gap:30px
 }
 #images{
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid blue; */
-    width: 30%;
-    
+  margin:5px
 }
 
+#imgDiv{
+   
+    width: 30%;
+}
+#imgDiv img{
+    width: 100%;
+}
 #images>div{
     display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 10px;
+    gap:4%
 }
 #images>div>img{
-    width: 49%;
+    width: 48%;
+   
 }
 /* #cartinfo{
     display: flex;
@@ -209,6 +209,7 @@ hr{
     border: 1px solid gray;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     
 }
 .qtybox  span{
@@ -396,7 +397,6 @@ ul>li:first-child{
     font-size: 12px;
     text-align: center;
 }
-/* 
 
 @media all and (max-width: 1100px){
 
@@ -406,33 +406,14 @@ ul>li:first-child{
     #footerHide{
         display: none;
     }
-      #footer{
+    #footer{
         text-align: center;
         margin:unset;
         justify-content: center;
     }
-      #feedImageBlock{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-
-    }
-    #feedImageBlock>#bigImageFeed{
-        width: 200px;
-        height: 200px;
-    }
-    .colRowGrid{
-        grid-row: unset;
-        grid-column: unset;
-    }
-    #productbox{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-   
-    }
     #paymentMethod{
         display: grid;
         grid-template-columns: repeat(6,1fr);
-        
     }
     #contacts{
         margin:0
@@ -440,80 +421,70 @@ ul>li:first-child{
    #smallNav{
     display: block;
    }
-   #filter{
-    display: block;
-   }
-  #sortby~h5{
-    display:none
-  }
-  #sortby{
-    box-shadow: 0 0 10px gray;
-    margin-bottom: 10px;
-  }
-  #Availability{
-    display: none;
-  }
+   #cn{
+      margin: 10px 15px
+    }
 
-} 
 
-@media all and (max-width: 650px){
+    /* /////////////////////// */
+    #parentbox{
+        display: unset;
+    }
     
-    #feedImageBlock{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-
-    }
-   
-    #productbox{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-   
-    }
-}
-@media all and (max-width: 450px){
-    
-    #feedImageBlock{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-
-    }
-   
-    #productbox{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-   
-    }
-    #chatBox{
-        display: none;
-    }
-    #paymentMethod{
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        gap: 1px;
-        margin:0px;
-        margin-top: 35px;
-        margin-bottom: 0px;
-    }
-    #floting-text-box h1 {
-        font-size: 30px;
-    }
-}
-@media all and (max-width: 320px){
-   
-    #productbox{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-    #divhover {
-        position: relative;
-        width: 80%;
+    #imgDiv{
+        width: 40%;
         margin: auto;
     }
-}
-@media all and (max-width: 320px){
-    #paymentMethod{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    
+    #cartinfo{
+        width: 30%;
+        margin: auto;
     }
-} */
+    #firstImage{
+        height: 500px;
+    }
+  
+  } 
+  
+@media all and (max-width: 800px){
+
+    #imgDiv{
+        width: 55%;
+    }
+    #cartinfo{
+        width: 50%;
+    }
+  } 
+  @media all and (max-width: 520px){
+
+    #imgDiv{
+        width: 65%;
+    }
+    #cartinfo{
+        width: 55%;
+    }
+  } 
+  @media all and (max-width: 450px){
+
+    #imgDiv{
+        width: 80%;
+    }
+    #cartinfo{
+        width: 70%;
+    }
+    #firstImage{
+        height: 450px;
+    }
+  } 
+  
+  @media all and (max-width: 350px){
+
+    #firstImage{
+        height: 400px;
+    }
+    #imgDiv{
+        width: 95%;
+    }
+    #cartinfo{
+        width: 90%;
+    }
+  } 

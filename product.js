@@ -7,7 +7,7 @@ imagediv.setAttribute("id","images");
 
 var img1 = document.createElement("img");
 img1.setAttribute("src",product[0].image);
-
+img1.setAttribute("id","firstImage");
 var sec_img_div = document.createElement("div");
 var img2 = document.createElement("img");
 img2.setAttribute("src",product[0].hoverimage);
@@ -52,8 +52,8 @@ productprice.innerText = "$"+product[0].price;
 
 infodiv.append(proj,productname,stardiv,que,productprice);
 
-document.querySelector("#parentbox").append(imagediv);
-document.querySelector("#product_detail").append(infodiv);
+document.querySelector("#imgDiv").append(imagediv);
+ document.querySelector("#product_detail").append(infodiv);
 
 var plus = document.querySelector(".plus");
 var num = document.querySelector(".num");
@@ -124,17 +124,17 @@ document.querySelector("#hidebox").addEventListener("click",()=>{
 
 document.querySelector("#mycart").addEventListener("click",function(){
     localStorage.setItem("cartdata",JSON.stringify(cartdata));
-    window.location.href = "../checkout.html";
+    window.location.href = "checkout.html";
     // alert("Please coonect cart page now");
     });
 document.getElementById("checkout").addEventListener("click",()=>{
     localStorage.setItem("cartdata",JSON.stringify(cartdata));
-    window.location.href = "../payment.html";
+    window.location.href = "payment.html";
 })
 
 document.querySelector(".buy").addEventListener("click",()=>{
     localStorage.setItem("cartdata",JSON.stringify(cartdata));
-    window.location.href = "../payment.html";
+    window.location.href = "payment.html";
 })
 
 //div => img1,img2,img3

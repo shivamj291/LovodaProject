@@ -36,8 +36,6 @@ hr{
   }
   #navbar img{
     margin-right: 30px;
-    width: 100%;
-    margin-top: 7px;
   }
   #navbar{
     display: flex;
@@ -51,7 +49,6 @@ hr{
   #navbar>a{
     text-decoration: none;
     color: rgb(var(--color-foreground));
-    cursor: pointer;
   }
   #navbar p:hover{
     text-decoration: underline;
@@ -87,7 +84,7 @@ hr{
 
 #container{
   display: grid;
-width:35%;
+width:400px;
 margin:auto;
 
 }
@@ -400,3 +397,83 @@ p img{
   display: none;
 }
 
+
+@media all and (max-width: 1100px){
+
+  #mNavbar{
+    display: none;
+  }
+  #footerHide{
+      display: none;
+    }
+    #footer{
+      text-align: center;
+      margin:unset;
+      justify-content: center;
+  }
+   
+  
+  #paymentMethod{
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      
+  }
+  #contacts{
+      margin:0
+  }
+ #smallNav{
+  display: block;
+ }
+  #cn{
+    margin: 10px 15px
+  }
+#gog{
+  margin: 7px 50px;
+}
+} 
+@media all and (max-width: 600px){
+ #container{
+  display: grid;
+  width:350px;
+  margin:auto;
+ }
+ #paymentMethod{
+  margin:14%
+
+}
+#social{
+  width: 300px;
+}
+}
+
+@media all and (max-width: 450px){
+  #container{
+    display: grid;
+    width:300px;
+    margin:auto;
+   }
+}
+@media all and (max-width: 350px){
+  #paymentMethod{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+  
+  }
+ 
+   #container{
+    display: grid;
+    width:250px;
+    margin:auto;
+   }
+   #hidefacebook{
+    display: none;
+   }
+}
+@media all and (max-width: 280px){
+  #paymentMethod{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+  
+  }
+
+}
