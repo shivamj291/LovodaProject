@@ -172,3 +172,51 @@
 }
 
 
+
+@media all and (max-width: 1100px){
+    #parent{
+        display: block;
+        width: 70%;
+    }
+}
+@media all and (max-width: 800px){
+    #code {
+      display: block;
+    }
+    #contactinfo{
+        display: block;
+    }
+    #nextstep{
+        width: 70%;
+    margin:40px  auto;
+    }
+}
+@media all and (max-width: 500px){
+    #code {
+        display: block;
+    }
+}
+@media all and (max-width: 400px){
+  
+    #parent{
+        display: block;
+        width: 90%;
+    }
+    #nextstep{
+        display: block;
+      
+        margin:auto;
+        align-items: center;
+    }
+}
+@media all and (max-width: 300px){
+  
+    #parent{
+        display: block;
+        width: 100%;
+    }
+    input{
+        width: 90%
+    };
+   
+}
