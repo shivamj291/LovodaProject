@@ -45,6 +45,6 @@ var finalprice = document.getElementById("finalvalue");
 finalprice.innerText = "$" + (total + 3.36);
 
 document.getElementById("shopall").addEventListener("click",()=>{
-    alert("OTP has been sent");
+    alert("OTP:1234");
     window.location.href = "OTP.html";
 })
